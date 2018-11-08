@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+#form-container{
+    background-color: none;
+    border: 3px solid #d90429;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 15px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #8d99ae;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #8d99ae;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #8d99ae;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #8d99ae;
+}
+
+#form-container h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #edf2f4;
+}
+
+form input[type=text]{
+    font-family: 'Assistant', sans-serif;
+    display: block;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #edf2f4;
+    color: #edf2f4;
+    border-radius: 15px;
+    width: 80%;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 25px;
+}
+
+form input[type=text]:focus{
+    outline: none;
+    background-color: #ef233c;
+    transition: 0.75s;
+}
+
+form input[type=submit]{
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border: 2px solid #edf2f4;
+    border-radius: 15px;
+    width: 50%;
+    color: #edf2f4;
+    padding: 15px;
+    background-color: transparent;
+}
+
+form input[type=submit]:hover{
+    background-color: #edf2f4;
+    color: #2b2d42;
+    transition: 0.45s;
+    padding: 20px;
+}
+
+#errorMsg{
+    padding: 0px;
+    color: #d90429;
+}
