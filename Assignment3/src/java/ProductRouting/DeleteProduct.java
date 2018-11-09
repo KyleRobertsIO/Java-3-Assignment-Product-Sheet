@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/*
+Pathing: products.jsp -> products.jsp
+*/
+
 public class DeleteProduct extends HttpServlet {
 
     @Override

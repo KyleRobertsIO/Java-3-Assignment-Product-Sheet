@@ -37,6 +37,7 @@ table td {
     color: #2b2d42;
     padding: 20px 10px 20px 10px;
     border-right: black solid 1px;
+    border-left: black solid 1px;
 }
 
 #submitButton{
